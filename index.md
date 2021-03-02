@@ -6,7 +6,7 @@
 
 [Select Interests](Select_Interests.html)
 
-[Search for Content](Search_for_Content.html)
+[Search for Content](Search_For_Content.html)
 
 [Create Relationships](Create_Relationships.html)
 
