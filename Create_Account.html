@@ -2,27 +2,36 @@
 <html>
     <head>
         <title>Create Account</title>
+        <style>
+            .norm { font-family: 'Times New Roman'; font-size: 12pt; color: rgb(19, 11, 11); background-color: darkgray;}
+    
+            .title { font-family: 'Times New Roman';font-size: 30pt; color: rgb(59, 13, 121);background-color: blanchedalmond }
+    
+            .title2 { font-family: 'Times New Roman';font-size: 24pt; color: rgb(59, 13, 121);background-color: blanchedalmond }
+        </style>
     </head>
+
     <body>
-        <h1>Create Account</h1>
+        <span class="title">Create Account</span>
         <input type="text" placeholder="E-Mail">   <br>
         <input type="text"  placeholder="Username"> <br>
-        <label>Birthdate</label>  <input type="date">   <br>
+        <label>Birthdate</label><br>
+        <input type="date">   <br>
         <input type="number"  placeholder="Phone Number"> <br> 
         <input type="password" placeholder="Password">   <br>
         <input type="password"  placeholder="Verify Password"> <br>
         <input type="checkbox"><label>Notifications</label> <br>
-        <h2>Language</h2>
+        <span class="title2">Language</span>
         <select>
             <option>English</option>
             <option>Spanish</option>
             <option>Japanese</option>
         </select><br>
-        <h2>Bio</h2><br>
+        <span class="title2">Bio</span><br>
         <textarea rows=5 cols=50 placeholder="Issue"></textarea><br><br>
-        <h2>Upload profile picture</h2>
+        <span class="title2">Upload profile picture</span><br>
         <input type="file"><br><br>
-        <h2>Select Interests</h2>
+        <span class="title2">Select Interests</span>
             <div>Click on each subject you would like to see in your feed.</div>
             <input type="checkbox"><Label>Programing</Label><br>
             <input type="checkbox"><Label>Math homework</Label><br>
@@ -32,6 +41,8 @@
             <input type="checkbox"><Label>Sports</Label><br>
             <input type="checkbox"><Label>Emotional support</Label><br>
             <input type="button" value="Create" onclick="location.href='Login.html'"><br><br>
+
+            <a href="Login.html">Login</a><br>
     
         <a href="index.html">Home</a>
     </body>
