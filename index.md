@@ -4,15 +4,15 @@
 
 [Login](Login.html)
 
-[Profile]()
+[Profile](Profile.html)
 
-[View Feed]()
+[View Feed](View_Interactive_Feed.html)
 
 [Search](Search_For_Content.html)
 
-[Notifications]()
+[Notifications](Notifications.html)
 
-[Logout]()
+[Logout](Logout.html)
 
 [Report Issues](Report_Issues.html)
 
