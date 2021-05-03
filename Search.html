@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <script>
+        function calcSales() {
+            var price, taxRate, tax, total;
+
+            //price = parseFloat(inPrice.value);
+            if (inItem.value == "Zane Kesler") {
+                <meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/ZaneKesler.html" />;
+            }
+            else if (inItem.value == "Matt the skater") {
+                <meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/MattTheSkater.html" />;
+            }
+            else if (inItem.value == "Cuphead") {
+                <meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/Cuphead.html" />;
+            }
+            else {
+                return;
+            }
+            //taxRate = parseFloat(inTaxRate.value);
+            if (inState.value == "Fly Fishing") {
+                <meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/ZaneKesler.html" />;
+            }
+            else if (inState.value == "Skating") {
+                <meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/MattTheSkater.html" />;
+            }
+            else if (inState.value == "Videogames") {
+                <meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/Cuphead.html" />;
+            }
+            else
+            {
+                return;
+            }
+            
+        }
+    </script>
+    <style>
+        .in {font-family:'Times New Roman';font-size: 16pt;color: green;}
+        .out { font-family: 'Times New Roman'; font-size: 16pt; color: red; }
+        .norm { font-family: 'Times New Roman'; font: 16pt; color: black; background-color: cyan }
+        .title { font-family: 'Times New Roman'; font: 30pt; color: black }
+    </style>
+</head>
+<body>
+    <span class="title">Search</span>
+    <span class="in">Search by account</span><select id="inItem"><option>Zane Kesler</option> <option>Matt the skater</option><option>Cuphead</option></select><br />
+    <span class="in">Search by topic</span><select id="inState"><option>Fly Fishing</option> <option>Skating</option><option>Videogames</option></select><br /><br />
+    <input id = "button" type="button" value="Calculate" onclick="calcSales()" /><br /><br />
+    <a href="index.html">Home</a><br />
+</body>
+</html>
