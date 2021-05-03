@@ -2,13 +2,24 @@
 <html>
     <head>
         <title>Share</title>
+        <style>
+            .norm { font-family: 'Times New Roman'; font-size: 12pt; color: rgb(19, 11, 11); background-color: darkgray;}
+    
+            .title { font-family: 'Times New Roman';font-size: 30pt; color: rgb(59, 13, 121);background-color: blanchedalmond }
+    
+            .title2 { font-family: 'Times New Roman';font-size: 24pt; color: rgb(59, 13, 121);background-color: blanchedalmond }
+        </style>
     </head>
+
     <body>
-        <h1>Share</h1>
-        <label>Sensei post -></label><input type="file"><br><br>
-        <label>In-Feed</label><input type="button" onclick="location.href='Share_Feed.html'"> <br> 
-        <h2>External (No Sensei)</h2>
-        <label>External</label><input type="button" onclick="location.href='Share_Ex.html'"> <br>
+        <span class="title">Share</span>
+        <label class="title2">Sensei post -></label><input type="file"><br><br>
+        <input type="button" value="Sensei" onclick="location.href='Share_Feed.html'"> <br>
+         
+        <span class="title2">No Sensei</span>
+        <input type="button" value="In-Feed" onclick="location.href='Share_Feed.html'"> <br>
+        <input type="button" value="External"onclick="location.href='Share_Ex.html'"> <br>
+        <a href="View_Interactive_Feed.html">Feed</a><br><br>
         <a href="index.html">Home</a>
     </body>
 </html>
