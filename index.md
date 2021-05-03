@@ -8,7 +8,7 @@
 
 [View Feed](View_Interactive_Feed.html)
 
-[Search](Search.html)
+[Search](Search_For_Content.html)
 
 [Notifications](Notifications.html)
 
