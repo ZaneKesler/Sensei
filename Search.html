@@ -1,39 +1,12 @@
 <!doctype html>
 <html>
 <head>
-    <script>
-        function calcSales() {
-            var price, taxRate, tax, total;
-
-            //price = parseFloat(inPrice.value);
-            if (inItem.value == "Zane Kesler") {
-                browser.search({"https://zanekesler.github.io/Sensei/ZaneKesler.html"})
-            }
-            else if (inItem.value == "Matt the skater") {
-                search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/MattTheSkater.html" />;
-            }
-            else if (inItem.value == "Cuphead") {
-                search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/Cuphead.html" />;
-            }
-            else {
-                return;
-            }
-            //taxRate = parseFloat(inTaxRate.value);
-            if (inState.value == "Fly Fishing") {
-                browser.search({"https://zanekesler.github.io/Sensei/ZaneKesler.html"})
-            }
-            else if (inState.value == "Skating") {
-                search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/MattTheSkater.html" />;
-            }
-            else if (inState.value == "Videogames") {
-                    search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/Cuphead.html" />;
-            }
-            else
-            {
-                return;
-            }
-          
-        }
+    
+    <script type="text/javascript">
+        document.getElementById('searchform').onsubmit = function() {
+    window.location = 'http://www.google.com/search?q=site:https://zanekesler.github.io/Sensei ' + document.getElementById('test').value;
+    return false;
+}
     </script>
     <style>
         .in {font-family:'Times New Roman';font-size: 16pt;color: green;}
@@ -43,10 +16,8 @@
     </style>
 </head>
 <body>
-    <span class="title">Search</span><br><br>
-    <span class="in">Search by account</span><select id="inItem"><option>Zane Kesler</option> <option>Matt the skater</option><option>Cuphead</option></select><br />
-    <span class="in">Search by topic</span><select id="inState"><option>Fly Fishing</option> <option>Skating</option><option>Videogames</option></select><br /><br />
-    <input id = "outSearch" type="button" value="Calculate" onclick="calcSales()" /><br /><br />
+    <form id="sarchform" class="search2" method="get" action="source.html" />
+    <input class="search2" id="test" type="text" name="search" size="10" maxlength="255"/>          
     <a href="index.html">Home</a><br />
 </body>
 </html>
