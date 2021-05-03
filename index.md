@@ -2,21 +2,20 @@
 
 [Create Account](Create_Account.html)
 
-[Edit Profile](Edit_Profile.html)
+[Login](Login.html)
 
-[Select Interests](Select_Interests.html)
+[Profile]()
 
-[Search for Content](Search_For_Content.html)
+[View Feed]()
 
-[Create Relationships](Create_Relationships.html)
+[Search](Search_For_Content.html)
 
-[Post Original Content](Post_Original_Content.html)
+[Notifications]()
+
+[Logout]()
 
 [Report Issues](Report_Issues.html)
 
-[View Interactive Feed](View_Interactive_Feed.html)
-
-[Professional Verification](Professional_Verification.html)
 
 You can use the [editor on GitHub](https://github.com/ZaneKesler/Sensei/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
