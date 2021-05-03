@@ -7,7 +7,7 @@
 
             //price = parseFloat(inPrice.value);
             if (inItem.value == "Zane Kesler") {
-                search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/ZaneKesler.html" />;
+                browser.search({"https://zanekesler.github.io/Sensei/ZaneKesler.html"})
             }
             else if (inItem.value == "Matt the skater") {
                 search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/MattTheSkater.html" />;
@@ -20,7 +20,7 @@
             }
             //taxRate = parseFloat(inTaxRate.value);
             if (inState.value == "Fly Fishing") {
-                search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/ZaneKesler.html" />;
+                browser.search({"https://zanekesler.github.io/Sensei/ZaneKesler.html"})
             }
             else if (inState.value == "Skating") {
                 search=<meta http-equiv = "refresh" content = "https://zanekesler.github.io/Sensei/MattTheSkater.html" />;
@@ -32,7 +32,7 @@
             {
                 return;
             }
-            outSearch.innerHTML=search;
+          
         }
     </script>
     <style>
