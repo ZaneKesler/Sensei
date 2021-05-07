@@ -12,6 +12,14 @@
 
 [Notifications](Notifications.html)
 
+[Message](messages.html)
+
+[Post](Post_Original_Content.html)
+
+[Share](Share.html)
+
+[Verify](Professional_Verification.html)
+
 [Logout](Logout.html)
 
 [Report Issues](Report_Issues.html)
